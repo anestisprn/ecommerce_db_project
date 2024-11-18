@@ -1,5 +1,5 @@
 from sqlalchemy.orm import sessionmaker
-from models import User, Product, Order, OrderItem, Review
+from models import User, Product
 from migrate import engine
 
 Session = sessionmaker(bind=engine)
